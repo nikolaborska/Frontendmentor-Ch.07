@@ -1,0 +1,132 @@
+/*G E N E R A L  O P T I O N S*/
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding: 10%;
+}
+
+h1 {
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+}
+
+p {
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
+}
+
+/*M A I N*/
+main {
+    width: 90%;
+    background-color: #fff;
+	border-radius: 15px;
+	padding: 10%;
+}
+/*F I G U R E*/
+figure {
+    width: 100%;
+    margin: auto;
+}
+
+img.qrCode {
+    width: -webkit-fill-available;
+    border-radius: 10px;
+}
+
+/*S E C T I O N*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1.improvement {
+    font-size: large;
+}
+
+p.scan {
+    font-size: small;
+    margin-top: auto;
+}
+
+/*F O O T E R*/
+footer {
+    margin-top: 10%;
+}
+
+.attribution {
+	font-size: small;
+	text-align: center;
+	color: hsl(218, 44%, 22%);
+}
+
+.attribution a {
+	color: hsl(218, 44%, 22%);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media only screen and (min-width: 375px) {
+	body {
+		padding: 10% 15%;
+	}
+
+	main {
+		padding: 5%;
+	}
+}
+
+@media only screen and (min-width: 425px) {
+	body {
+		padding: 10% 15%;
+	}
+
+	main {
+		padding: 5%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		padding: 10% 30%;
+	}
+
+	main {
+		padding: 5%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		padding: 10% 38%;
+	}
+
+	main {
+		padding: 5%;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	body {
+		padding: 10% 38%;
+	}
+
+	main {
+		padding: 5%;
+	}
+}
+
+@media only screen and (min-width: 2560px) {
+	body {
+		padding: 10% 45%;
+	}
+
+	main {
+		padding: 5%;
+	}
+}
